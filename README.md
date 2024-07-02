@@ -1,31 +1,68 @@
-# React + TypeScript + Vite
+<div align='center'>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1>SEA Salon</h1>
+<p>Introducing SEA Salon, a rising star in the salon industry known for their outstanding services and excellent reviews. Built as an assessment for COMPFEST 2024 Software Engineering Academy Selection Test</p>
 
-Currently, two official plugins are available:
+<h4> <span> · </span> <a href="https://github.com/Tianrider /SEA-Salon-Client/blob/master/README.md"> Documentation </a> <span> · </span> <a href="https://github.com/Tianrider /SEA-Salon-Client/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/Tianrider /SEA-Salon-Client/issues"> Request Feature </a> </h4>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h4>Live Url: https://sea-salon-tianrider.vercel.app/</h4>
+<h4>Server repo: <a href="https://github.com/Tianrider/Sea-Salon-api">https://github.com/Tianrider/Sea-Salon-api</a></h4>
+</div>
 
-## Expanding the ESLint configuration
+# :notebook_with_decorative_cover: Table of Contents
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [About the Project](#star2-about-the-project)
+- [Contact](#handshake-contact)
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## :star2: About the Project
+### :space_invader: Tech Stack
+<details> <summary>Client</summary> <ul>
+<li><a href="">React</a></li>
+<li><a href="">Typescript</a></li>
+<li><a href="">Vite</a></li>
+</ul> </details>
+
+### :dart: Features
+- admin dashboard
+- user login
+- user reservations
+
+
+## :toolbox: Getting Started
+
+### :bangbang: Prerequisites
+
+- Install Node JS in your computer<a href="https://nodejs.org/en/"> Here</a>
+
+
+### :running: Run Locally
+
+Clone the project
+
+```bash
+https://github.com/Tianrider/SEA-Salon-Client
+```
+Go to the project directory
+```bash
+cd SEA-Salon-Client
+```
+Install dependencies
+```bash
+npm install
+```
+start the server
+```bash
+npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# SEA-Salon-Client
+
+### :scroll: Code of Conduct
+
+Please read the [Code of Conduct](https://github.com/Tianrider/SEA-Salon-Client/blob/master/CODE_OF_CONDUCT.md)
+
+## :handshake: Contact
+
+Christian Hadiwijaya - - hadiwijayachristian7@gmail.com
+
+Project Link: [https://github.com/Tianrider/SEA-Salon-Client](https://github.com/Tianrider/SEA-Salon-Client)
