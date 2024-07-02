@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    overflow-x: hidden;
+}
+
+/* CSS example to style Swiper navigation arrows */
+.swiper-button-prev,
+.swiper-button-next {
+    color: white; /* Arrow button color */
+    font-size: 10px; /* Arrow button size */
+    /* Additional styling as per your design */
+}
